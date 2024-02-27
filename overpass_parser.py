@@ -20,6 +20,8 @@ def fetchOverpassData(
     (
         nwr[amenity=bicycle_rental](area.searchArea);
         nwr[amenity=bicycle_rental]({minLat}, {minLon}, {maxLat}, {maxLon});
+        nwr[amenity=bicycle_parking]["disused:amenity"=bicycle_rental](area.searchArea);
+        nwr[amenity=bicycle_parking]["disused:amenity"=bicycle_rental]({minLat}, {minLon}, {maxLat}, {maxLon});
     );
     (._;>;);
     out body;

@@ -83,9 +83,13 @@ class MevoComparator:
         best: Optional[Element] = None
 
         for element in self.osmParser.elements:
-            if (
-                "amenity" not in element.tags
-                or element.tags["amenity"] != "bicycle_rental"
+            if "amenity" not in element.tags:
+                continue
+            if element.tags["amenity"] not in ["bicycle_rental", "bicycle_parking"]:
+                continue
+            if element.tags["amenity"] == "bicycle_parking" and (
+                "disused:amenity" not in element.tags
+                or element.tags["disused:amenity"] != "bicycle_rental"
             ):
                 continue
             point = GeoPoint.fromElement(element, self.osmParser)
