@@ -1,4 +1,4 @@
-Compares data of Meveo and OpenStreetMap.
+Compares data of Mevo and OpenStreetMap.
 
 Code based on [RooveeOSM](https://github.com/starsep/RooveeOSM)
 
