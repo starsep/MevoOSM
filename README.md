@@ -14,3 +14,5 @@ docker run --rm \
     --env TZ=Europe/Warsaw \
     -t mevoosm
 ```
+
+Part of icons from https://icons.getbootstrap.com

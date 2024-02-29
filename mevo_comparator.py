@@ -1,6 +1,7 @@
 import dataclasses
 import difflib as SC
 import json
+import urllib.parse
 from dataclasses import dataclass
 from pathlib import Path
 from time import localtime, strftime
@@ -17,6 +18,22 @@ from mevo_parser import MevoParser, Station
 
 DISTANCE_THRESHOLD_MISMATCH = 100
 MAX_DISTANCE = 1000000
+OSM_URL = "https://osm.org"
+JOSM_URL = "http://localhost:8111"
+
+
+def mevoNetworkTags():
+    # Should match https://nsi.guide/index.html?t=brands&k=amenity&v=bicycle_rental&tt=mevo
+    networkTags = dict(
+        amenity="bicycle_rental",
+        brand="MEVO",
+        network="MEVO",
+        operator="CityBike Global",
+        opening_hours="24/7",
+    )
+    networkTags["brand:wikidata"] = "Q60860236"
+    networkTags["network:wikidata"] = "Q60860236"
+    return networkTags
 
 
 @dataclass
@@ -26,6 +43,47 @@ class Match:
     osm: Element
     osmType: str
     ratio: float = 0.0
+
+    @property
+    def osmMarkLink(self):
+        return f"{OSM_URL}?mlat={self.place.lat}&mlon={self.place.lon}#map=19/{self.place.lat}/{self.place.lon}"
+
+    @property
+    def josmAreaLink(self):
+        return f"{JOSM_URL}/load_and_zoom?top={self.place.lat}&bottom={self.place.lat}&left={self.place.lon}&right={self.place.lon}"
+
+    @property
+    def osmLink(self):
+        return f"{OSM_URL}/{self.osmType }/{self.osm.id }"
+
+    @property
+    def josmLink(self):
+        return f"{JOSM_URL}/load_object?objects={self.osmType[0]}{self.osm.id}"
+
+    @property
+    def tags(self) -> dict[str, str]:
+        result = mevoNetworkTags()
+        result["ref:mevo"] = self.place.ref
+        result["ref"] = self.place.name
+        result["capacity"] = str(self.place.capacity)
+        return result
+
+    @property
+    def josmTags(self):
+        return urllib.parse.quote_plus(
+            "|".join([f"{key}={value}" for key, value in self.tags.items()])
+        )
+
+    @property
+    def addJosmLink(self):
+        return f"{JOSM_URL}/add_node?lon={self.place.lon}&lat={self.place.lat}&addtags={self.josmTags}"
+
+    @property
+    def updateJosmLink(self):
+        result = f"{JOSM_URL}/load_object?objects={self.osmType[0]}{self.osm.id}&lon={self.place.lon}&lat={self.place.lat}&addtags={self.josmTags}"
+        if "disused:amenity" in self.osm.tags:
+            result += "%7Cdisused:amenity="
+        return result
 
 
 @dataclass
@@ -128,18 +186,10 @@ class MevoComparator:
             matches.append(match)
         csvPath = outputPath.with_suffix(".csv")
         kmlPath = outputPath.with_suffix(".kml")
-        networkTags = dict(
-            amenity="bicycle_rental",
-            brand="MEVO",
-            network="MEVO",
-            operator="Nextbike Polska",
-        )
-        networkTags["brand:wikidata"] = "Q60860236"
-        networkTags["network:wikidata"] = "Q60860236"
         mismatches = list(
             filter(lambda m: m.distance > DISTANCE_THRESHOLD_MISMATCH, matches)
         )
-        mapFeatures = list(map(MapFeature.fromMatch(networkTags), mismatches))
+        mapFeatures = list(map(MapFeature.fromMatch(mevoNetworkTags()), mismatches))
         with outputPath.open("w", encoding="utf-8") as f:
             context = {
                 "matches": matches,
