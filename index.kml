@@ -716,6 +716,20 @@ network:wikidata=Q60860236</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>WLA007</name>
+  <description>name=WLA007
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.372361,54.803806</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>WLA008</name>
   <description>name=WLA008
 amenity=bicycle_rental
