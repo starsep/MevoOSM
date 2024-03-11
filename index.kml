@@ -2,104 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
-  <name>GDA376</name>
-  <description>name=GDA376
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.64408,54.39393</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA374</name>
-  <description>name=GDA374
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.62103389,54.39447645</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA366</name>
-  <description>name=GDA366
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.574246,54.349959</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA369</name>
-  <description>name=GDA369
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.568796,54.328892</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA368</name>
-  <description>name=GDA368
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.570822,54.331717</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA364</name>
-  <description>name=GDA364
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.8305346,54.3439594</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDA365</name>
-  <description>name=GDA365
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.933902,54.33499</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>GDA131</name>
   <description>name=GDA131
 amenity=bicycle_rental
@@ -632,104 +534,6 @@ network:wikidata=Q60860236</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>WLA001</name>
-  <description>name=WLA001
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.210238,54.829079</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA002</name>
-  <description>name=WLA002
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.24325,54.824806</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA003</name>
-  <description>name=WLA003
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.30275,54.833472</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA004</name>
-  <description>name=WLA004
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.310976,54.825892</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA005</name>
-  <description>name=WLA005
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.338996,54.820737</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA006</name>
-  <description>name=WLA006
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.366631,54.809354</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA007</name>
-  <description>name=WLA007
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.372361,54.803806</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>WLA008</name>
   <description>name=WLA008
 amenity=bicycle_rental
@@ -744,20 +548,6 @@ network:wikidata=Q60860236</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>WLA009</name>
-  <description>name=WLA009
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.386197,54.796113</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>WLA010</name>
   <description>name=WLA010
 amenity=bicycle_rental
@@ -769,34 +559,6 @@ brand:wikidata=Q60860236
 network:wikidata=Q60860236</description>
   <Point>
     <coordinates>18.395869,54.79644</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA012</name>
-  <description>name=WLA012
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.398778,54.787778</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA013</name>
-  <description>name=WLA013
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.397478,54.785474</coordinates>
   </Point>
 </Placemark>
 <Placemark>
@@ -825,48 +587,6 @@ brand:wikidata=Q60860236
 network:wikidata=Q60860236</description>
   <Point>
     <coordinates>18.4162915,54.7939086</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA018</name>
-  <description>name=WLA018
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.407083,54.786667</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA019</name>
-  <description>name=WLA019
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.415083,54.783889</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>WLA020</name>
-  <description>name=WLA020
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.505361,54.759972</coordinates>
   </Point>
 </Placemark>
 </Document>
