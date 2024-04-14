@@ -86,20 +86,6 @@ network:wikidata=Q60860236</description>
   </Point>
 </Placemark>
 <Placemark>
-  <name>GDA382</name>
-  <description>name=GDA382
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.66896,54.34207</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
   <name>GDA381</name>
   <description>name=GDA381
 amenity=bicycle_rental
