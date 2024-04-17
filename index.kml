@@ -183,5 +183,19 @@ network:wikidata=Q60860236</description>
     <coordinates>18.47749,54.60501</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>GDY125</name>
+  <description>name=GDY125
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.49686,54.49685</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
