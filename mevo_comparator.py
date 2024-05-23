@@ -178,7 +178,7 @@ class MevoComparator:
         for match in self.matches:
             match.ratio = (
                 SC.SequenceMatcher(
-                    None, match.place.name, match.osm.tags.get("name")
+                    None, match.place.name, match.osm.tags.get("name").replace("MEVO ","")
                 ).ratio()
                 if match.osm.tags.get("name") is not None
                 else 0
