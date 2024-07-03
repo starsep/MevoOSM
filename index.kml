@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>Opener Kosakowo</name>
+  <description>name=Opener Kosakowo
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.494278168960307,54.58423711652904</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Opener Gdynia</name>
+  <description>name=Opener Gdynia
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.53509130143206,54.56624166953566</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
