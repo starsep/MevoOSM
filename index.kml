@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>Ed Sheeran 2</name>
+  <description>name=Ed Sheeran 2
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.638192903413795,54.387463493370745</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Ed Sheeran 1</name>
+  <description>name=Ed Sheeran 1
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.64725689827435,54.38855399209862</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
