@@ -2,6 +2,20 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>GDA046</name>
+  <description>name=GDA046
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.598089,54.413656</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>GDY138</name>
   <description>name=GDY138
 amenity=bicycle_rental
@@ -12,7 +26,21 @@ opening_hours=24/7
 brand:wikidata=Q60860236
 network:wikidata=Q60860236</description>
   <Point>
-    <coordinates>18.455353869940247,54.46286335532273</coordinates>
+    <coordinates>18.455337797434158,54.46289313978714</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GDY148</name>
+  <description>name=GDY148
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.490947438884746,54.470920668597984</coordinates>
   </Point>
 </Placemark>
 </Document>
