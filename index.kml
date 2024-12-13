@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-<Placemark>
-  <name>GDY122</name>
-  <description>name=GDY122
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.5103352,54.4980481</coordinates>
-  </Point>
-</Placemark>
-<Placemark>
-  <name>GDY125</name>
-  <description>name=GDY125
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.497247,54.4982509</coordinates>
-  </Point>
-</Placemark>
 </Document>
 </kml>
