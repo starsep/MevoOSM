@@ -54,7 +54,7 @@ class Match:
 
     @property
     def osmLink(self):
-        return f"{OSM_URL}/{self.osmType }/{self.osm.id }"
+        return f"{OSM_URL}/{self.osmType}/{self.osm.id}"
 
     @property
     def josmLink(self):
@@ -166,7 +166,7 @@ class MevoComparator:
                     distance=dist,
                     place=place,
                     osm=matchedElement,
-                    osmType="way" if type(matchedElement) == Way else "node",
+                    osmType="way" if type(matchedElement) is Way else "node",
                 )
             )
         self.matches = data
@@ -178,7 +178,9 @@ class MevoComparator:
         for match in self.matches:
             match.ratio = (
                 SC.SequenceMatcher(
-                    None, match.place.name, match.osm.tags.get("name").replace("MEVO ","")
+                    None,
+                    match.place.name,
+                    match.osm.tags.get("name").replace("MEVO ", ""),
                 ).ratio()
                 if match.osm.tags.get("name") is not None
                 else 0
