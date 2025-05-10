@@ -6,7 +6,7 @@ from jinja2 import Environment, PackageLoader
 
 from mevo_comparator import run
 from mevo_parser import MevoParser
-from starsep_utils.healthchecks import healthchecks
+from starsep_utils import healthchecks
 
 
 if __name__ == "__main__":
