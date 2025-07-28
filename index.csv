@@ -1,3 +1,6 @@
+54.32415,18.63483,addNode name=GDA396,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
+54.32171,18.55292,addNode name=GDA394,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
+54.3469,18.57222,addNode name=GDA390,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.302617,18.57812,addNode name=GPG007,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.298585,18.595699,addNode name=GPG006,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.363451,18.582268,addNode name=GDA391,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
@@ -14,7 +17,7 @@
 54.588079,18.394352,addNode name=RUM030,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.585318,18.388489,addNode name=RUM029,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.587931,18.373054,addNode name=RUM028,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
-54.373904,18.649331,addNode name=GD389,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
+54.373904,18.649331,addNode name=GDA389,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.326273,18.744564,addNode name=GPG014,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.35091,18.7911,addNode name=GDA395,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
 54.38282,18.71079,addNode name=GDA397,amenity=bicycle_rental,brand=MEVO,network=MEVO,operator=CityBike Global,opening_hours=24/7,brand:wikidata=Q60860236,network:wikidata=Q60860236
