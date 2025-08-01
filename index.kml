@@ -2,6 +2,48 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>GPG011</name>
+  <description>name=GPG011
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.635437,54.230028</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GPG010</name>
+  <description>name=GPG010
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.647111,54.222693</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GPG012</name>
+  <description>name=GPG012
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.5485268,54.2218405</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>GPG002</name>
   <description>name=GPG002
 amenity=bicycle_rental
@@ -13,6 +55,20 @@ brand:wikidata=Q60860236
 network:wikidata=Q60860236</description>
   <Point>
     <coordinates>18.571672,54.27024</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GPG004</name>
+  <description>name=GPG004
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.575869,54.27513</coordinates>
   </Point>
 </Placemark>
 <Placemark>
