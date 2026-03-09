@@ -15,5 +15,19 @@ network:wikidata=Q60860236</description>
     <coordinates>18.629193,54.309907</coordinates>
   </Point>
 </Placemark>
+<Placemark>
+  <name>TCZ007</name>
+  <description>name=TCZ007
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.756699,54.087254</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
