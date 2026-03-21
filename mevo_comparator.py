@@ -5,16 +5,14 @@ import urllib.parse
 from dataclasses import dataclass
 from pathlib import Path
 from time import localtime, strftime
-from typing import List, Optional, Tuple, Dict
+from typing import Dict, List, Optional, Tuple
 
 from jinja2 import Environment, PackageLoader
 from overpy import Element, Way
 
 from distance import GeoPoint, distance
-from overpass_parser import OverpassParser
-
-
 from mevo_parser import MevoParser, Station
+from overpass_parser import OverpassParser
 
 DISTANCE_THRESHOLD_MISMATCH = 100
 MAX_DISTANCE = 1000000
@@ -64,7 +62,7 @@ class Match:
     def tags(self) -> dict[str, str]:
         result = mevoNetworkTags()
         result["ref:mevo"] = self.place.ref
-        result["ref"] = self.place.name
+        result["name"] = "MEVO " + self.place.name
         result["capacity"] = str(self.place.capacity)
         return result
 
