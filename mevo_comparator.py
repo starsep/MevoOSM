@@ -62,6 +62,7 @@ class Match:
     def tags(self) -> dict[str, str]:
         result = mevoNetworkTags()
         result["ref:mevo"] = self.place.ref
+        result["ref"] = ''
         result["name"] = "MEVO " + self.place.name
         result["capacity"] = str(self.place.capacity)
         return result
