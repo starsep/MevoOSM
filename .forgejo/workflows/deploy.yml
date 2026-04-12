@@ -27,4 +27,4 @@ jobs:
             LICENSE
       - name: Purge Bunny CDN Cache
         run: |
-          curl -X POST 'https://api.bunny.net/purge?url=https://mevo-osm.starsep.com' -H "AccessKey: ${{ secrets.BUNNY_API_KEY }}"
+          curl -X POST 'https://api.bunny.net/purge?url=https://mevo-osm.starsep.com' -H "AccessKey: ${{ secrets.BUNNYNET_API_KEY }}"
