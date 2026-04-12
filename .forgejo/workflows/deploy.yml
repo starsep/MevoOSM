@@ -11,8 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Upload files to storage
-        # mirror of https://github.com/SamKirkland/FTP-Deploy-Action@v4.3.6
-        uses: https://git.starsep.top/starsep/FTP-Deploy-Action@v4.3.6
+        uses: https://github.com/SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           protocol: ftp
           port: 21
