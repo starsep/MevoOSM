@@ -1,9 +1,9 @@
-name: GitHub Pages
+name: Deploy to Bunny CDN
 
 on:
   push:
     branches:
-      - gh-pages
+      - gh-pages # TODO: rename
 
 jobs:
   deploy:
@@ -25,3 +25,8 @@ jobs:
             **/.git*/**
             .forgejo/**
             LICENSE
+      - name: Purge Bunny CDN Cache
+        run: |
+          curl -X POST "https://api.bunny.net/pullzone/${{ secrets.FTP_USERNAME }}/purgeCache" \
+            -H "AccessKey: ${{ secrets.BUNNY_API_KEY }}" \
+            -H "Content-Type: application/json"
