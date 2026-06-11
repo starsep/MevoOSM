@@ -4,10 +4,23 @@ import overpy
 from diskcache import Cache
 
 from configuration import OVERPASS_URL, cacheDirectory
+from urllib.request import Request
 
-overpassApi = overpy.Overpass(url=OVERPASS_URL)
 cacheOverpass = Cache(str(cacheDirectory / "overpass"))
 
+
+# Workaround from https://github.com/DinoTools/python-overpy/issues/134#issuecomment-4604161798
+def createOverpy(url: str | None = None) -> overpy.Overpass:
+    if url is None:
+        url = 'https://overpass-api.de/api/interpreter'
+    req = Request(url)
+    req.add_header('Referer', 'https://overpass-api.eu/')
+    req.add_header('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8')
+    req.add_header('Origin', 'https://overpass-turbo.eu')
+    req.add_header('User-Agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.3')
+    return overpy.Overpass(url=req)  # type: ignore  # openurl() accepts Request
+
+overpassApi = createOverpy(OVERPASS_URL)
 
 @cacheOverpass.memoize()
 def fetchOverpassData(
