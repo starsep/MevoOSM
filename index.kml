@@ -1,5 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>GTC001</name>
+  <description>name=GTC001
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.811439983764455,54.051164643591726</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GTC002</name>
+  <description>name=GTC002
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.73444043445721,54.07826831614199</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GTC004</name>
+  <description>name=GTC004
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.727261777462783,54.112110001097896</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>GTC003</name>
+  <description>name=GTC003
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.62461180361775,54.094285959135206</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>SKA003</name>
+  <description>name=SKA003
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.446137142529643,54.069552637354306</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>SKA002</name>
+  <description>name=SKA002
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.446714066890788,54.07159787122741</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>SKA001</name>
+  <description>name=SKA001
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.444855125897607,54.07613233826328</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>SKA005</name>
+  <description>name=SKA005
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.459149509634813,54.058313662239044</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>SKA004</name>
+  <description>name=SKA004
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.47809248957772,54.070168024926055</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
