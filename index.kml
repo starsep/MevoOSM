@@ -16,6 +16,20 @@ network:wikidata=Q60860236</description>
   </Point>
 </Placemark>
 <Placemark>
+  <name>GDY161</name>
+  <description>name=GDY161
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.549874866475278,54.51435839247182</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>STE001</name>
   <description>name=STE001
 amenity=bicycle_rental
