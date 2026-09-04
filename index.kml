@@ -2,6 +2,20 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
 <Placemark>
+  <name>KAR019</name>
+  <description>name=KAR019
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.19296,54.32505</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
   <name>GDY184</name>
   <description>name=GDY184
 amenity=bicycle_rental
