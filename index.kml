@@ -15,19 +15,5 @@ network:wikidata=Q60860236</description>
     <coordinates>18.4184943,54.7211789</coordinates>
   </Point>
 </Placemark>
-<Placemark>
-  <name>PUC010</name>
-  <description>name=PUC010
-amenity=bicycle_rental
-brand=MEVO
-network=MEVO
-operator=CityBike Global
-opening_hours=24/7
-brand:wikidata=Q60860236
-network:wikidata=Q60860236</description>
-  <Point>
-    <coordinates>18.4203879,54.7129099</coordinates>
-  </Point>
-</Placemark>
 </Document>
 </kml>
