@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
+<Placemark>
+  <name>ZUK009</name>
+  <description>name=ZUK009
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.35971,54.38845</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ZUK008</name>
+  <description>name=ZUK008
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.38788,54.42741</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ZUK007</name>
+  <description>name=ZUK007
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.43355,54.36386</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>ZUK006</name>
+  <description>name=ZUK006
+amenity=bicycle_rental
+brand=MEVO
+network=MEVO
+operator=CityBike Global
+opening_hours=24/7
+brand:wikidata=Q60860236
+network:wikidata=Q60860236</description>
+  <Point>
+    <coordinates>18.39756,54.36786</coordinates>
+  </Point>
+</Placemark>
 </Document>
 </kml>
